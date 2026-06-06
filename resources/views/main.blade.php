@@ -205,9 +205,9 @@
                     <!--begin::User Menu Dropdown-->
                     <li class="nav-item dropdown user-menu">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                            <img src="{{ url('assets/img/user2-160x160.jpg') }}" class="user-image rounded-circle shadow"
+                            <img src="{{ url('assets/img/patr.jpg') }}" class="user-image rounded-circle shadow"
                                 alt="User Image" />
-                            <span class="d-none d-md-inline">Alexander Pierce</span>
+                            <span class="d-none d-md-inline">Owz</span>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
                             <!--begin::User Image-->
@@ -215,7 +215,7 @@
                                 <img src="../assets/img/user2-160x160.jpg" class="rounded-circle shadow"
                                     alt="User Image" />
                                 <p>
-                                    Alexander Pierce - Web Developer
+                                    Owz - Web Developer
                                     <small>Member since Nov. 2023</small>
                                 </p>
                             </li>
@@ -285,7 +285,7 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a href="../index.html" class="nav-link">
+                                    <a href="{{ route('dashboard') }}" class="nav-link">
                                         <i class="nav-icon bi bi-circle"></i>
                                         <p>Dashboard v1</p>
                                     </a>
@@ -316,6 +316,13 @@
                             <a href="{{ url('prodi') }}" class="nav-link">
                                 <i class="nav-icon bi bi-map"></i>
                                 <p>Program Studi</p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="{{ url('mahasiswa') }}" class="nav-link">
+                                <i class="nav-icon bi bi-people"></i>
+                                <p>Mahasiswa</p>
                             </a>
                         </li>
 
